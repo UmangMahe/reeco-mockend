@@ -1,14 +1,50 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "products": [
+    {
+      "id": 1,
+      "name": "Chicken Breast Fillets, Boneless matuumaMarinated 6 Ounce Raw, Invivid",
+      "brand": "Hormel Black <br />Labelmany",
+      "image": "Avacado",
+      "price": "$60.67",
+      "qty": 0,
+      "state": "urgent",
+      "address": "New York No. 1 Lake Park"
+    },
+    {
+      "id": 2,
+      "name": "Chicken Breast Fillets, Boneless matuumaMarinated 6 Ounce Raw, Invivid",
+      "brand": "Hormel Black <br />Labelmany",
+      "image": "Avacado",
+      "price": "$60.67",
+      "qty": 15,
+      "total": 9000.88,
+      "state": "missing",
+      "address": "London No. 1 Lake Park"
+    },
+    {
+      "id": 3,
+      "name": "Chicken Breast Fillets, Boneless matuumaMarinated 6 Ounce Raw, Invivid",
+      "brand": "Hormel Black <br />Labelmany",
+      "image": "Avacado",
+      "price": "$60.67",
+      "oldPrice": "$10.43",
+      "qty": 15,
+      "state": "approved",
+      "total": 9000.88,
+      "address": "Sydney No. 1 Lake Park"
+    },
+    {
+      "id": 4,
+      "name": "Chicken Breast Fillets, Boneless matuumaMarinated 6 Ounce Raw, Invivid",
+      "brand": "Hormel Black <br />Labelmany",
+      "image": "Avacado",
+      "price": "$60.67",
+      "oldPrice": "$10.43",
+      "qty": 15,
+      "total": 12654.32,
+      "oldTotal": 3345.12,
+      "state": "approved",
+      "address": "Sydney No. 1 Lake Park"
+    }
+  ]
 }
